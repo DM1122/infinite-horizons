@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  mc:
+    image: itzg/minecraft-server
+    container_name: minecraft
+    tty: true
+    stdin_open: true
+    ports:
+      - "25565:25565"
+      - "24454:24454/udp" # for Simple Voice Chat
+    environment:
+      EULA: "TRUE"
+      VERSION: 1.20.4
+      DIFFICULTY: normal
+      MOTD: "GalaxyHeart | Powered by sunshine \u2600"
+      VIEW_DISTANCE: 10
+      OVERRIDE_SERVER_PROPERTIES: "TRUE"
+      ICON: https://cdn.modrinth.com/data/DAIhsoJr/7fb8adb1bc7485bda48fcf91837db863fba8d43f.png
+      MAX_TICK_TIME: "-1"
+      AUTOPAUSE_TIMEOUT_INIT: "60"
+      AUTOPAUSE_TIMEOUT_EST: "60"
+      STOP_SERVER_ANNOUNCE_DELAY: 30
+      TYPE: FABRIC
+      MODRINTH_PROJECTS: fabric-api, terralith, tree-harvester, village-spawn-point, villager-names-serilum, villager-death-messages, double-doors, random-village-names, gui-clock, healing-campfire, your-items-are-safe, inventory-totem, nether-portal-spread, inventory-sorting, lithium, ferrite-core, simple-voice-radio, voice-chat-interaction
+      MODRINTH_DOWNLOAD_DEPENDENCIES: required
+    restart: unless-stopped
+    volumes:
+      # attach the relative directory 'data' to the container's /data path
+      - ./data:/data
