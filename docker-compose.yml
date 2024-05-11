@@ -11,7 +11,7 @@ services:
       - "24454:24454/udp" # for Simple Voice Chat
     environment:
       EULA: "TRUE"
-      VERSION: 1.20.4
+      VERSION: 1.20.1
       DIFFICULTY: normal
       MOTD: "GalaxyHeart | Powered by sunshine \u2600"
       VIEW_DISTANCE: 10
@@ -21,8 +21,8 @@ services:
       AUTOPAUSE_TIMEOUT_INIT: "60"
       AUTOPAUSE_TIMEOUT_EST: "60"
       STOP_SERVER_ANNOUNCE_DELAY: 30
-      TYPE: FABRIC
-      MODRINTH_PROJECTS: fabric-api, terralith, tree-harvester, village-spawn-point, villager-names-serilum, villager-death-messages, double-doors, random-village-names, gui-clock, healing-campfire, your-items-are-safe, inventory-totem, nether-portal-spread, inventory-sorting, lithium, ferrite-core, simple-voice-radio, voice-chat-interaction
+      TYPE: MODRINTH
+      MODRINTH_MODPACK: TBD
       MODRINTH_DOWNLOAD_DEPENDENCIES: required
     restart: unless-stopped
     volumes:
