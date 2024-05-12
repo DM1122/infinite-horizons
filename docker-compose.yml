@@ -15,10 +15,10 @@ services:
       DIFFICULTY: normal
       MOTD: "Infinite Horizons | Powered by sunshine \u2600"
       MOD_PLATFORM: MODRINTH
-      MODRINTH_MODPACK: https://modrinth.com/modpack/infinite-horizons
+      MODRINTH_MODPACK: "Infinite Horizons 1.0.0.mrpack"
       # VIEW_DISTANCE: 10
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
-      ICON: https://cdn.modrinth.com/data/XQqzgjF0/79a864cfc58c78ae53edc20d889716782eef544c.jpeg
+      ICON: "icon.png"
       # MAX_TICK_TIME: "-1"
       # AUTOPAUSE_TIMEOUT_INIT: "60"
       # AUTOPAUSE_TIMEOUT_EST: "60"
