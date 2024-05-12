@@ -15,7 +15,7 @@ services:
       DIFFICULTY: normal
       MOTD: "Infinite Horizons | Powered by sunshine \u2600"
       MOD_PLATFORM: MODRINTH
-      MODRINTH_MODPACK: "Infinite Horizons 1.0.0.mrpack"
+      MODRINTH_MODPACK: "Infinite Horizons (server) 1.0.0.mrpack"
       # VIEW_DISTANCE: 10
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
       ICON: "icon.png"
@@ -23,7 +23,7 @@ services:
       # AUTOPAUSE_TIMEOUT_INIT: "60"
       # AUTOPAUSE_TIMEOUT_EST: "60"
       # STOP_SERVER_ANNOUNCE_DELAY: 30
-      MODRINTH_EXCLUDE_FILES: DistantHorizons-2.1.0-a-RC1-1.20.1
+      # MODRINTH_EXCLUDE_FILES: DistantHorizons-2.1.0-a-RC1-1.20.1
     restart: unless-stopped
     volumes:
       # attach the relative directory 'data' to the container's /data path
