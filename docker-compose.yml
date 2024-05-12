@@ -24,7 +24,7 @@ services:
       # AUTOPAUSE_TIMEOUT_EST: "60"
       # STOP_SERVER_ANNOUNCE_DELAY: 30
       MODRINTH_EXCLUDE_FILES: |
-        distant horizons
+        distanthorizons
     restart: unless-stopped
     volumes:
       # attach the relative directory 'data' to the container's /data path

@@ -18,3 +18,10 @@ To update the modpack to the latest version, re-download the modpack file and lo
 To run the server:
 1. Clone the repository
 2. Run `docker compose up`
+
+
+## Updates
+To update the server to the latest modpack:
+1. Shut down the server using `docker compose down`
+2. Update the repo `git pull`
+3. Restart the server `docker compose up`
