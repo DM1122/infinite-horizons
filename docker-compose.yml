@@ -13,17 +13,16 @@ services:
       EULA: "TRUE"
       VERSION: 1.20.1
       DIFFICULTY: normal
-      MOTD: "GalaxyHeart | Powered by sunshine \u2600"
-      VIEW_DISTANCE: 10
+      MOTD: "Infinite Horizons | Powered by sunshine \u2600"
+      MOD_PLATFORM: MODRINTH
+      MODRINTH_MODPACK: https://modrinth.com/modpack/infinite-horizons
+      # VIEW_DISTANCE: 10
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
-      ICON: https://cdn.modrinth.com/data/DAIhsoJr/7fb8adb1bc7485bda48fcf91837db863fba8d43f.png
-      MAX_TICK_TIME: "-1"
-      AUTOPAUSE_TIMEOUT_INIT: "60"
-      AUTOPAUSE_TIMEOUT_EST: "60"
-      STOP_SERVER_ANNOUNCE_DELAY: 30
-      TYPE: MODRINTH
-      MODRINTH_MODPACK: TBD
-      MODRINTH_DOWNLOAD_DEPENDENCIES: required
+      ICON: https://cdn.modrinth.com/data/XQqzgjF0/79a864cfc58c78ae53edc20d889716782eef544c.jpeg
+      # MAX_TICK_TIME: "-1"
+      # AUTOPAUSE_TIMEOUT_INIT: "60"
+      # AUTOPAUSE_TIMEOUT_EST: "60"
+      # STOP_SERVER_ANNOUNCE_DELAY: 30
     restart: unless-stopped
     volumes:
       # attach the relative directory 'data' to the container's /data path
