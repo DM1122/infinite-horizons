@@ -13,9 +13,10 @@ services:
       EULA: "TRUE"
       VERSION: 1.20.1
       DIFFICULTY: normal
+      SEED: galaxyheart
       MOTD: "Infinite Horizons | Powered by sunshine \u2600"
       MOD_PLATFORM: MODRINTH
-      MODRINTH_MODPACK: "Infinite Horizons (server) 1.0.0.mrpack"
+      MODRINTH_MODPACK: "Infinite Horizons 1.0.0.mrpack"
       # VIEW_DISTANCE: 10
       OVERRIDE_SERVER_PROPERTIES: "TRUE"
       ICON: "icon.png"
