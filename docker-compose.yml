@@ -34,10 +34,10 @@ services:
       # attach the relative directory 'data' to the container's /data path
       # "init" container for mc to restore the data volume when empty
       - ./data:/data
-    depends_on:
-      restore-backup:
-        condition: service_completed_successfully
-  # restore-backup: # Uncomment to restore latest backup
+    # depends_on: # Uncomment to restore latest backup
+    #   restore-backup:
+    #     condition: service_completed_successfully
+  # restore-backup:
   #   # Same image as mc, but any base image with bash and tar will work
   #   image: itzg/mc-backup
   #   restart: no
