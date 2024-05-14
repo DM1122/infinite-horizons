@@ -1,5 +1,5 @@
 # Infinite Horizons :milky_way:
-Resources for the Infinite Horizons Minecraft server `mc.galaxyheart.net`
+Resources for the Infinite Horizons Minecraft server.
 
 ![Server icon](data/icon.png)
 
